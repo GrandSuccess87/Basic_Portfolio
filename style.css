@@ -84,15 +84,24 @@ a:active {
     height: 100%;
 }
 
+
+
 #mesmiling {
     width: 200px;
     height: 200px;
     padding-left: 30px;
+    float: left;
+    padding-right: 10px;
 }
+
+
+
 .sidebarimages {
     width: 100%;
     height: 100%;
 }
+
+
 
 .logo-container {
     width: 80px;
@@ -111,13 +120,49 @@ a:active {
     }
 
 .container {
+    position: relative;
+    text-align: center;
+    color: white;
     height: 150px;
     width: 75%;
 }
 
-h4 {
-    text-align: right;
+.bottom-left {
+    position: absolute;
+    bottom: 3px;
+    left: 147px;
+    background-color: teal;
+    padding-right: 45px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+.centered {
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    background-color: teal;
+    padding: 3px;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+.centered1 {
+    position: absolute;
+    top: 85%;
+    left: 29%;
+    background-color: teal;
+    padding: 3px;
+    padding-left: 81px;
+    padding-right: 86px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
 
  img {
 	
@@ -129,13 +174,8 @@ h4 {
 
 }
 
-.container1 {
-    text-align: left;
-}
 
-.container2 {
-    text-align: left;
-}
+
 h2 {
     padding-left: 30px;
     color: #4aaaa5;
@@ -148,12 +188,16 @@ h3 {
 }
 
 
-
+h4 {
+    text-align: right;
+}
 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-right: 5px;
 }
+
 
 
 .sidebar {
@@ -167,8 +211,9 @@ p {
 	margin-left: 20px;
 	text-align: center;
 	height: 150px;
-	border: 1px solid #dddddd;
-	
+    border: 1px solid #dddddd;
+    float: right;
+
 }
 
 
